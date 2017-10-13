@@ -2,76 +2,114 @@
 <?php include 'encabezado2.php' ?>
 <body>
 
-<div class="linea">
-  <p><i class="fa fa-phone" aria-hidden="true"></i> PENDIENTE | COTIZAMOS SIN COSTO &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-envelope-o" aria-hidden="true"></i> info@construccionesduncor.com</p>
+<header >
+    <figure class="logo">
+      <img src="../img/kempo.png" alt="KEMPO" class="img-responsive">
+    </figure>
+    <nav>
+      <ul>
+        <a class="selector" href="../index.php">INICIO</a>
+        <a class="selector" href="nosotros.php">NOSOTROS</a>
+        <a class="selector" id="select" href="servicios.php">PRODUCTOS</a>
+        <a class="selector" href="contacto.php">CONTACTO</a>
+      </ul>
+    </nav>
+  </header>
+
+<div class="container" style="margin-bottom: 3%; ">
+  <h1 class="text-marcas" style="border-top: 1px gray solid; padding-top: 2%;">PRODUCTOS</h1>
+  <hr id="hr">
+  <p class="text-center text-subt" style="margin-top: 3%;">
+    NO BUSQUES MÁS. ELECTRODOMESTICOS Y LÍNEA BLANCA TENEMOS LOS MEJORES PRECIOS <br>
+
+    ¡Porque Somos Distribuidores Mayoristas!</p>
 </div>
 
-<header>
-  <figure class="logo pull-left">
-    <img src="../img/duncor.png" class="img-responsive" alt="DUNCOR">
-  </figure>
-  <nav class="pull-right">
-    <ul>
-      <a class="selector" href="../index.php">INICIO</a>
-      <a class="selector" href="nosotros.php">NOSOTROS</a>
-      <a class="selector" id="select" href="servicios.php"><i class="fa fa-briefcase" aria-hidden="true"></i> SERVICIOS</a>
-      <a class="selector" href="contacto.php">CONTACTO</a>
-    </ul>
-  </nav>
-</header>
+<div class="seccion1">
+  <div class="col-md-12 " style=" padding: 0px; margin:none;">
+    <div class="col-md-3 unoo">
+      <figure class="imagen4">
+        
+      </figure>
+      <p class="subtit">Refrigeradores</p>
+    </div>
+    <div class="col-md-3 unoo">
+      <figure class="imagen5">
+        
+      </figure>
+      <p class="subtit">Horno Microondas</p>
+    </div>
+    <div class="col-md-3 unoo">
+      <figure class="imagen6">
+        
+      </figure>
+      <p class="subtit">Horno Tostador</p>
+    </div>
+    <div class="col-md-3 unoo">
+      <figure class="imagen7">
+        
+      </figure>
+      <p class="subtit">Licuadoras</p>
+    </div>
+  </div>
 
-<div class="banners">
-  <p>
-Servicios que ofrecemos</p>
+  <div class="col-md-12 " style=" padding: 0px; margin:none;">
+    <div class="col-md-3 unoo">
+      <figure class="imagen8">
+        
+      </figure>
+      <p class="subtit">Estufas</p>
+    </div>
+    <div class="col-md-3 unoo">
+      <figure class="imagen9">
+        
+      </figure>
+      <p class="subtit">Lavadora De Una Tina</p>
+    </div>
+    <div class="col-md-3 unoo">
+      <figure class="imagen10">
+        
+      </figure>
+      <p class="subtit">Secadoras</p>
+    </div>
+    <div class="col-md-3 unoo">
+      <figure class="imagen11">
+        
+      </figure>
+      <p class="subtit">Sandwicheras</p>
+    </div>
+  </div>
+
+  <div class="col-md-12 " style=" padding: 0px; margin:none;">
+    <div class="col-md-3 unoo">
+      <figure class="imagen">
+        
+      </figure>
+      <p class="subtit">Planchas </p>
+    </div>
+    <div class="col-md-3 unoo">
+      <figure class="imagen2">
+        
+      </figure>
+      <p class="subtit">Lavadora De Dos Tinas</p>
+    </div>
+    <div class="col-md-3 unoo">
+      <figure class="imagen3">
+        
+      </figure>
+      <p class="subtit">Aspiradora Koblenz</p>
+    </div>
+    <div class="col-md-3 unoo">
+      <figure class="imagen12">
+        
+      </figure>
+      <p class="subtit">Batidoras</p>
+    </div>
+  </div>
 </div>
-
-<div class="section seccion2">
-      <div class="container">
-        <div class="row">
-          <div class="imagenn col-md-6">
-            
-          </div>
-          <div class="col-md-6">
-            <h1 class="top">CONSTRUCCIÓN</h1>
-            <p class="textos">Construimos la casa a la medida de tus sueños nos adaptamos a la necesidad de tu presupuesto y tú proyecto. Desde instalaciones eléctricas hasta instalaciones sanitarias. no por ningún aspecto durante la construcción de proyecto.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section seccion3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h1 class="top2">ARQUITECTURA</h1>
-            <p class="textos">Si no cuentas con tu proyecto no te preocupes nosotros podemos ayudarte a diseñar la casa de tus sueños tal y como te lo imaginas ajustandonos a tu presupuesto. Desde proyectos de jardinería decoración de interiores y acabados.</p>
-          </div>
-          <div class="col-md-6">
-            <img src="../img/arqui.jpg"
-            class="img-responsive">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section seccion2">
-      <div class="container">
-        <div class="row">
-          <div class="imagenn col-md-6">
-            
-          </div>
-          <div class="col-md-6">
-            <h1 class="top">TRÁMITES</h1>
-            <p class="textos">Evítate gastar tu tiempo en trámites y permisos de construcción y obras; nosotros nos encargamos de todo para que tú sólo disfrutes el proyecto de tu vida.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="boton" style="margin-bottom: 5%;">
-      <a href="contacto.php" style="text-decoration: none;"><button type="button" class="btn btn-danger btn-lg btn-block">CONTACTANOS</button></a>
-    </div>
-
+<div class="boton2" style="margin-bottom: 5%;">
+    <a href="contacto.php"><button type="button" class="btn btn-warning btn-lg btn-block"><i class="fa fa-phone" aria-hidden="true"></i> CONTACTANOS</button></a>
+  </div>
 
 <a class="go-top" href="#">Subir</a>
 <?php include 'pie.php' ?>

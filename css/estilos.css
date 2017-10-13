@@ -261,7 +261,7 @@ hr{
 	background: #cecece;
 }
 .carousel-indicators .active {
-background: #428bca;
+background: #E9CA17;
 }
 /*---------------------pie------------------*/
 footer{
@@ -293,9 +293,147 @@ footer p{
     clear: both;
 }
 */
-
+#hr{
+	width: 20%;
+	margin: 0 auto;
+	background-color: #E9CA17;
+	height: 5px;
+	margin-bottom: 0%;
+}
+.text-mision{
+	font-size: 18px;
+	text-align: justify;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-bottom: 8%;
+}
+.text-subt{
+	font-size: 17px;
+}
+.imagen4{
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background: url(../img/refri.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.imagen5{
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background: url(../img/horno.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.imagen6{
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background: url(../img/tostador.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.imagen7{
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background: url(../img/licuadoras.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.imagen8{
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background: url(../img/estufas.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.imagen9{
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background: url(../img/lavadora2.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.imagen10{
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background: url(../img/secadoras.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.imagen11{
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background: url(../img/sand.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+.imagen12{
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background: url(../img/batidora.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  overflow: hidden;
+}
 /*------------------------------------------------------------------------------------------------*/
 /*-------------servicios-----------------*/
 
 /*------------------------------------------------------------------------------------------------*/
 /*--------------------contacto-----------------*/
+.mapa{
+	width: 100%;
+}
+.mapa iframe{
+	width: 100%;
+}

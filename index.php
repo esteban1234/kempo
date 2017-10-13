@@ -21,7 +21,7 @@
   <p>Adquiere lo más moderno en electrodomésticos y línea blanca</p>
 
   <div class="boton">
-    <a href=""><button type="button" class="btn btn-warning btn-lg btn-block"><i class="fa fa-map-o" aria-hidden="true"></i> PRODUCTOS</button></a>
+    <a href="vistas/servicios.php"><button type="button" class="btn btn-warning btn-lg btn-block"><i class="fa fa-map-o" aria-hidden="true"></i> PRODUCTOS</button></a>
   </div>
 </div>
 </div>
@@ -57,9 +57,9 @@
 <div class="contenbanner">
   <div class="container">
     <div class="textobanner col-md-8">
-      <p>Eres mayorista, constructor o desarrollador inmobiliario?</p>
+      <p>¿Eres mayorista, constructor o desarrollador inmobiliario?</p>
        <div class="boton2">
-    <a href=""><button type="button" class="btn btn-warning btn-lg btn-block"><i class="fa fa-phone" aria-hidden="true"></i> CONTACTANOS</button></a>
+    <a href="vistas/contacto.php"><button type="button" class="btn btn-warning btn-lg btn-block"><i class="fa fa-phone" aria-hidden="true"></i> CONTACTANOS</button></a>
   </div>
     </div>
     <figure class="imagenbanner col-md-4">

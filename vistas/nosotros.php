@@ -1,72 +1,45 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
+<header >
+    <figure class="logo">
+      <img src="../img/kempo.png" alt="KEMPO" class="img-responsive">
+    </figure>
+    <nav>
+      <ul>
+        <a class="selector" href="../index.php">INICIO</a>
+        <a class="selector" id="select" href="nosotros.php">NOSOTROS</a>
+        <a class="selector" href="servicios.php">PRODUCTOS</a>
+        <a class="selector" href="contacto.php">CONTACTO</a>
+      </ul>
+    </nav>
+  </header>
 
-<div class="linea">
-  <p><i class="fa fa-phone" aria-hidden="true"></i> PENDIENTE | COTIZAMOS SIN COSTO &nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-envelope-o" aria-hidden="true"></i> info@construccionesduncor.com</p>
+<div class="container" style="margin-bottom: 3%; ">
+  <h1 class="text-marcas" style="border-top: 1px gray solid; padding-top: 2%;">¿Quiénes Somos?</h1>
+  <hr id="hr">
 </div>
 
-<header>
-  <figure class="logo pull-left">
-    <img src="../img/duncor.png" class="img-responsive" alt="DUNCOR">
-  </figure>
-  <nav class="pull-right">
-    <ul>
-      <a class="selector" href="../index.php">INICIO</a>
-      <a class="selector" id="select" href="nosotros.php"><i class="fa fa-users" aria-hidden="true"></i> NOSOTROS</a>
-      <a class="selector" href="servicios.php">SERVICIOS</a>
-      <a class="selector" href="contacto.php">CONTACTO</a>
-    </ul>
-  </nav>
-</header>
+<div class="container">
+  <h1>Misión</h1>
+  <p class="text-mision">Ser la mejor empresa comercializadora de aparatos electrodomésticos y artículos para el hogar (linea blanca) que satisfaga las necesidades y expectativas de los clientes en el mercado nacional y de exportación. Con un equipo humano capaz, innovador y realizado, logrando una rentabilidad en un ambiente de competencia internacional que asegure la permanencia y el crecimiento de la empresa, garantice una retribución adecuada a nuestros colaboradores y accionistas, cumpliendo con la responsabilidad social y ecológica que nos corresponde.
+</p>
 
-<div class="bannern">
-  <p>
-Una de las empresas dedicadas a la ingeniería, construcción y mantenimiento </p>
+<h1>Visión</h1>
+  <p class="text-mision">Desarrollar altos niveles en servicio, calidad y con tecnología de punta, asociada a la responsabilidad y el compromiso, que nos permita permanecer como la principal opción de compra para nuestros clientes, así como también nos ubicara como el primer distribuidor de electrodomésticos y aparatos de línea blanca mayorista a nivel nacional para finalmente captar nuevos clientes y abarcar mas zonas en todo el país.
+</p>
+
+<h1>Valores</h1>
+  <p class="text-mision">Confiabilidad: valoramos la honestidad, la integridad, la lealtad y nuestra capacidad de cumplir lo prometido. <br><br>
+
+Humanismo: estamos comprometidos con una conducta ética y solidaria con el desarrollo de todos los sectores de la sociedad.<br><br>
+
+Responsabilidad: nuestras acciones repercuten en nuestro entorno, somos responsables de lo que hacemos y la responsabilidad exige de nosotros la excelencia.
+</p>
 </div>
-
-<div class="container" style="padding: 50px 0px;">
-  <div class="uno">
-    <div class="con" style="width: 45%; margin: 0 auto;"><span class="pull-left"><i class="fa fa-location-arrow" aria-hidden="true"></i></span><p class="pull-right"> MISION</p></div>
-    <p style="clear: both;">Contribuir al éxito de nuestros clientes mediante la satisfacción de sus necesidades relacionadas con los servicios que ofrecemos de ingeniería, construcción, mantenimiento e instalaciones, proporcionándoles soluciones técnico económicas de alto valor agregado.</p>
+<div class="boton2" style="margin-bottom: 5%;">
+    <a href="contacto.php"><button type="button" class="btn btn-warning btn-lg btn-block"><i class="fa fa-phone" aria-hidden="true"></i> CONTACTANOS</button></a>
   </div>
-  <div class="uno">
-    <div class="con" style="width: 45%; margin: 0 auto;"><span class="pull-left"><i class="fa fa-eye" aria-hidden="true"></i></span><p class="pull-right"> VISION</p></div>
-    <p style="clear: both;">Posicionarnos en el mercado de nuestros clientes como la mejor empresa en el ramo de la construcción , ofreciendo un servicio integral de Arquitectura e Ingeniería Civil y operando siempre con un trato amable, de calidad y respeto para todos nuestros clientes.</p>
-  </div>
-  <div class="uno">
-    <div class="con" style="width: 50%; margin: 0 auto;"><span class="pull-left"><i class="fa fa-handshake-o" aria-hidden="true"></i></span><p class="pull-right"> VALORES</p></div>
-    <p style="clear: both;">Honestidad <br>
-Compromiso <br>
-Profesionalismo <br>
-Dedicación <br>
-Respeto <br>
-Integridad <br>
-Trato Justo</p>
-  </div>
-</div>
-
-<div class="section seccion1">
-      <div class="container">
-        <div class="row">
-          <div class="imagenn col-md-6">
-            
-          </div>
-          <div class="col-md-6">
-            <!-- <h1>A title</h1>
-            <h3>A subtitle</h3> -->
-            <p class="texton">Somos una empresa que proporciona un servicio integral a cualquier persona que desee construir o remodelar, te apoyamos desde el diseño de tu proyecto, realizamos todos los trámites que requieras para construir y edificamos tu proyecto hasta su finalización. <br><br>
-
-              Los servicios que ofrece DUNCOR son garantía de eficiencia, honestidad, calidad y profesionalismo. <br><br>
-
-
-              Con los mejores materiales de construcción y aceros, proyectamos, diseñamos y construimos obras civiles con tecnología y servicio a nuestros clientes con la más alta calidad, asistiendo con la selección de materiales más acordes con sus necesidades específicas. Además les ayudamos a resolver el mejor uso del espacio disponible con la más alta funcionalidad de sus instalaciones presentes y futuras.
-        </div>
-      </div>
-    </div>
-
-
-
 
 <a class="go-top" href="#">Subir</a>
 <?php include 'pie.php' ?>

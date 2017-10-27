@@ -1,0 +1,687 @@
+@media screen and (max-width: 480px){
+
+/*********************DISEÑO INDEX **************************/
+	.banner{
+		width: 100%;
+		display: block;
+		height: 100%;
+	}
+
+	.fondo{
+		height: 100%;
+	}
+	
+
+	.logo{
+		float: none !important;
+		margin: 5px auto !important;
+		width: 40%;
+	}
+
+	nav{
+		position: fixed;
+		top: 0px;
+		width: 65%;
+		height: 100%;
+		margin: auto;
+		z-index: 2;
+		background: rgba(0,0,0,0.9);
+		display: none;
+	}
+
+	nav ul .selector{
+		display: block;
+		padding: 10px 0px !important;
+		font-size: 20px !important;
+		border:0px !important;
+		color: #fff !important;
+	}
+
+	nav ul a.selector:hover{
+		border-top: 0px;
+	}
+
+	#select{
+		background: #FF4000;
+	}
+
+	.op-menu{
+		display: block;
+		position: absolute;
+		top: 20px;
+		left: 30px;
+		cursor: pointer;
+	}
+
+	.ad{
+		border-radius: 10px;
+		font-size: 20px !important;
+		font-weight: bold;
+		width: 95% !important;
+		padding: 15px 5px;
+		margin-bottom: 25px !important;
+	}
+
+	.boton{
+		display: none;
+	}
+
+	.uno{
+		background-color:  #d35400;
+		color: #fff;
+		padding: 0px;
+		height: 100%;
+		overflow: hidden;
+
+	}
+
+	.uno .tit{
+		color: #fff;
+		font-size: 22px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.uno .text{
+		font-size: 18px;
+		text-align: center;
+		padding: 1px;
+		margin: 0px;
+	}
+
+	.uno .text br{
+		display: none;
+	}
+
+	.uno .icono{
+		color: #fff;
+		margin: 10px auto;
+	}
+	
+
+	.unoo{
+		/*border: 2px solid green;*/
+		height: 100%;
+	}
+
+	.unoo:hover{
+		background-color: #fff;
+		color: #fff;
+	}
+
+	.unoo:hover .subtit{
+		color: #424949;
+	}
+	
+
+	.unoo .imagen, .unoo .imagen2, .unoo .imagen3,
+	.unoo .imagen4, .unoo .imagen5, .unoo .imagen6,
+	.unoo .imagen7, .unoo .imagen8, .unoo .imagen9,
+	.unoo .imagen10, .unoo .imagen11, .unoo .imagen12{
+		/*border: 2px solid blue;*/
+		background-size: 100% 100%;
+		/*height:150px;*/
+		width:90%;
+		border-radius: 10px;
+		margin: 10px auto;
+	}
+
+	.subtit{
+		margin: 0px 0px 40px 0px;
+		font-size: 18px;
+		font-weight: bold;
+
+	}
+
+	.contenbanner, .textobanner{
+		height: 100%;
+	}
+
+	.textobanner p{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.textobanner .boton2, .imagenbanner, .none{
+		display: none;
+	}
+
+	.text-marcas{
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+/*********************END DISEÑO INDEX***********************/
+
+/*********************DISEÑO NOSOTROS**************************/
+	.mvv{
+		/*border: 2px solid red;*/
+		text-align: center;
+		font-size: 25px;
+		font-weight: 700;
+	}
+
+	.text-mision{
+		font-size: 18px;
+		font-family: arial;
+	}
+
+	.boton2{
+		width: 65%;
+	}
+/*********************END DISEÑO NOSOTROS***********************/
+
+/*********************DISEÑO SERVICIOS**************************/
+
+/*********************END DISEÑO SERVICIOS***********************/
+
+/*********************DISEÑO CONTACTO**************************/
+	.cont-btn{
+		text-align: center;
+		padding: 10px 0px;
+	}
+/*********************END DISEÑO CONTACTO***********************/
+
+/*********************DISEÑO FOOTER**************************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+/*********************END DISEÑO FOOTER***********************/
+
+
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+	/*********************DISEÑO INDEX **************************/
+	.banner{
+		width: 100%;
+		display: block;
+		height: 100%;
+	}
+
+	.fondo{
+		height: 100%;
+	}
+	
+
+	.logo{
+		float: none !important;
+		margin: 5px auto !important;
+		width: 40%;
+	}
+
+	nav{
+		position: fixed;
+		top: 0px;
+		width: 65%;
+		height: 100%;
+		margin: auto;
+		z-index: 2;
+		background: rgba(0,0,0,0.9);
+		display: none;
+	}
+
+	nav ul .selector{
+		display: block;
+		padding: 10px 0px !important;
+		font-size: 20px !important;
+		border:0px !important;
+		color: #fff !important;
+	}
+
+	nav ul a.selector:hover{
+		border-top: 0px;
+	}
+
+	#select{
+		background: #FF4000;
+	}
+
+	.op-menu{
+		display: block;
+		position: absolute;
+		top: 20px;
+		left: 30px;
+		cursor: pointer;
+	}
+
+	.ad{
+		border-radius: 10px;
+		font-size: 20px !important;
+		font-weight: bold;
+		width: 95% !important;
+		padding: 15px 5px;
+		margin-bottom: 25px !important;
+	}
+
+	.boton{
+		display: none;
+	}
+
+	.uno{
+		background-color:  #d35400;
+		color: #fff;
+		padding: 0px;
+		height: 100%;
+		overflow: hidden;
+
+	}
+
+	.uno .tit{
+		color: #fff;
+		font-size: 22px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.uno .text{
+		font-size: 18px;
+		text-align: center;
+		padding: 1px;
+		margin: 0px;
+	}
+
+	.uno .text br{
+		display: none;
+	}
+
+	.uno .icono{
+		color: #fff;
+		margin: 10px auto;
+	}
+	
+
+	.unoo{
+		/*border: 2px solid green;*/
+		height: 100%;
+	}
+
+	.unoo:hover{
+		background-color: #fff;
+		color: #fff;
+	}
+
+	.unoo:hover .subtit{
+		color: #424949;
+	}
+	
+
+	.unoo .imagen, .unoo .imagen2, .unoo .imagen3,
+	.unoo .imagen4, .unoo .imagen5, .unoo .imagen6,
+	.unoo .imagen7, .unoo .imagen8, .unoo .imagen9,
+	.unoo .imagen10, .unoo .imagen11, .unoo .imagen12{
+		/*border: 2px solid blue;*/
+		background-size: 100% 100%;
+		/*height:150px;*/
+		width:70%;
+		border-radius: 10px;
+		margin: 10px auto;
+	}
+
+	.subtit{
+		margin: 0px 0px 40px 0px;
+		font-size: 18px;
+		font-weight: bold;
+
+	}
+
+	.contenbanner, .textobanner{
+		height: 100%;
+	}
+
+	.textobanner p{
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.textobanner .boton2, .imagenbanner, .none{
+		display: none;
+	}
+
+	.text-marcas{
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+/*********************END DISEÑO INDEX***********************/
+
+/*********************DISEÑO NOSOTROS**************************/
+	.mvv{
+		/*border: 2px solid red;*/
+		text-align: center;
+		font-size: 25px;
+		font-weight: 700;
+	}
+
+	.text-mision{
+		font-size: 18px;
+		font-family: arial;
+	}
+
+	.boton2{
+		width: 45%;
+	}
+/*********************END DISEÑO NOSOTROS***********************/
+
+/*********************DISEÑO SERVICIOS**************************/
+
+/*********************END DISEÑO SERVICIOS***********************/
+
+/*********************DISEÑO CONTACTO**************************/
+	.cont-btn{
+		text-align: center;
+		padding: 10px 0px;
+	}
+/*********************END DISEÑO CONTACTO***********************/
+
+/*********************DISEÑO FOOTER**************************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+/*********************END DISEÑO FOOTER***********************/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+		/*********************DISEÑO INDEX **************************/
+	.banner{
+		width: 100%;
+		display: block;
+		height: 100%;
+	}
+
+	.fondo{
+		height: 100%;
+	}
+	
+
+	.logo{
+		float: none !important;
+		margin: 5px auto !important;
+		width: 30%;
+	}
+
+	nav{
+		position: fixed;
+		top: 0px;
+		width: 65%;
+		height: 100%;
+		margin: auto;
+		z-index: 2;
+		background: rgba(0,0,0,0.9);
+		display: none;
+	}
+
+	nav ul .selector{
+		display: block;
+		padding: 10px 0px !important;
+		font-size: 20px !important;
+		border:0px !important;
+		color: #fff !important;
+	}
+
+	nav ul a.selector:hover{
+		border-top: 0px;
+	}
+
+	#select{
+		background: #FF4000;
+	}
+
+	.op-menu{
+		display: block;
+		position: absolute;
+		top: 20px;
+		left: 30px;
+		cursor: pointer;
+	}
+
+	.ad{
+		border-radius: 10px;
+		font-size: 23px !important;
+		font-weight: bold;
+		width: 95% !important;
+		padding: 15px 5px;
+		margin-bottom: 25px !important;
+	}
+
+	.boton{
+		display: none;
+	}
+
+	.uno{
+		background-color:  #d35400;
+		color: #fff;
+		padding: 0px;
+		height: 100%;
+		overflow: hidden;
+
+	}
+
+	.uno .tit{
+		color: #fff;
+		font-size: 25px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.uno .text{
+		font-size: 20px;
+		text-align: center;
+		padding: 1px;
+		margin: 0px;
+	}
+
+	.uno .text br{
+		display: none;
+	}
+
+	.uno .icono{
+		color: #fff;
+		margin: 10px auto;
+	}
+	
+
+	.unoo{
+		height: 100%;
+	}
+
+	.unoo:hover{
+		background-color: #fff;
+		color: #fff;
+	}
+
+	.unoo:hover .subtit{
+		color: #424949;
+	}
+	
+
+	.unoo .imagen, .unoo .imagen2, .unoo .imagen3,
+	.unoo .imagen4, .unoo .imagen5, .unoo .imagen6,
+	.unoo .imagen7, .unoo .imagen8, .unoo .imagen9,
+	.unoo .imagen10, .unoo .imagen11, .unoo .imagen12{
+		/*border: 2px solid blue;*/
+		background-size: 100% 100%;
+		/*height:150px;*/
+		width:60%;
+		border-radius: 10px;
+		margin: 10px auto;
+	}
+
+	.subtit{
+		margin: 0px 0px 40px 0px;
+		font-size: 22px;
+		font-weight: bold;
+
+	}
+
+	.contenbanner, .textobanner{
+		height: 100%;
+	}
+
+	.textobanner p{
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.textobanner .boton2, .imagenbanner, .none{
+		display: none;
+	}
+
+	.text-marcas{
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+
+	.br{
+		overflow: hidden;
+	}
+/*********************END DISEÑO INDEX***********************/
+
+/*********************DISEÑO NOSOTROS**************************/
+	.mvv{
+		/*border: 2px solid red;*/
+		text-align: center;
+		font-size: 28px;
+		font-weight: 700;
+	}
+
+	.text-mision{
+		font-size: 18px;
+		font-family: arial;
+	}
+
+	.boton2{
+		width: 35%;
+	}
+
+
+/*********************END DISEÑO NOSOTROS***********************/
+
+/*********************DISEÑO SERVICIOS**************************/
+
+/*********************END DISEÑO SERVICIOS***********************/
+
+/*********************DISEÑO CONTACTO**************************/
+	.cont-btn{
+		text-align: center;
+		padding: 10px 0px;
+	}
+
+	.contact-detail-box{
+		padding: 20px 0px;
+	}
+/*********************END DISEÑO CONTACTO***********************/
+
+/*********************DISEÑO FOOTER**************************/
+	footer{
+		height: 100%;
+	}
+
+	footer p{
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+/*********************END DISEÑO FOOTER***********************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+
+	.boton2{
+		width: 30%;
+	}
+
+	.boton2 a{
+		margin-top: 40px !important;
+	}
+
+	.unoo .imagen, .unoo .imagen2, .unoo .imagen3,
+	.unoo .imagen4, .unoo .imagen5, .unoo .imagen6,
+	.unoo .imagen7, .unoo .imagen8, .unoo .imagen9,
+	.unoo .imagen10, .unoo .imagen11, .unoo .imagen12{
+		background-size: 100% 100%;
+
+	}
+
+	.contenbanner{
+		height: 100%;
+	}
+
+	.textobanner p{
+		font-size: 25px;
+		margin-top: 60px;
+	}
+
+	.uno .tit{
+		color: #fff;
+		font-size: 25px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.uno .text{
+		font-size: 20px;
+		text-align: center;
+		padding: 1px;
+		margin: 0px;
+	}
+
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+
+	.boton2{
+		width: 25%;
+	}
+
+	.boton2 a{
+		margin-top: 40px !important;
+	}
+
+	.unoo .imagen, .unoo .imagen2, .unoo .imagen3,
+	.unoo .imagen4, .unoo .imagen5, .unoo .imagen6,
+	.unoo .imagen7, .unoo .imagen8, .unoo .imagen9,
+	.unoo .imagen10, .unoo .imagen11, .unoo .imagen12{
+		background-size: 100% 100%;
+
+	}
+
+	.contenbanner{
+		height: 100%;
+	}
+
+	.textobanner p{
+		font-size: 25px;
+		margin-top: 60px;
+	}
+
+	.uno .tit{
+		color: #fff;
+		font-size: 25px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.uno .text{
+		font-size: 20px;
+		text-align: center;
+		padding: 1px;
+		margin: 0px;
+	}
+
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

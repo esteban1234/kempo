@@ -15,4 +15,5 @@
 	<link rel="stylesheet" href="../css/estilos.css">
 	<link rel="stylesheet" href="../css/responsivo.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
+	<script src="../js/general.js"></script>
 </head>
